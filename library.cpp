@@ -1,7 +1,13 @@
 #include <iostream>
 
-int main(void)
+int main()
 {
-    std::cout<<3*4<<std::endl;
+    int sum=0,val=50;
+    while (val<=100)
+    {
+        sum+=val;
+        val++;
+    }
+    std :: cout << "the sum of 50 to 100 is : " << sum << std :: endl ;
     return 0;
 }
