@@ -2,12 +2,12 @@
 
 int main()
 {
-    int sum=0,val=50;
-    while (val<=100)
+    int sum=0,val=10;
+    while (val>=0)
     {
-        sum+=val;
-        val++;
+        std :: cout << val << std :: endl ;
+        val--;
     }
-    std :: cout << "the sum of 50 to 100 is : " << sum << std :: endl ;
+
     return 0;
 }
