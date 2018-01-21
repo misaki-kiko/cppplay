@@ -1,7 +1,7 @@
-/*
- * 是2018 开始对c++学习的练习记录
- * cpp primer 习题被包含
- *
- *
- *
- */
+#include <iostream>
+
+int main(void)
+{
+    std::cout<<"Hello,World。"<<std::endl;
+    return 0;
+}
